@@ -32,8 +32,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
-    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 1em 5%;
+    background-color: rgba(255, 255, 255, 0.559); 
     backdrop-filter: blur(10px);               
     position: sticky;
     top: 0;
@@ -83,7 +83,7 @@
   .search-container #searchForm {
     display: flex; 
     flex-direction: column;
-    gap: 5px;
+    gap: 1em;
   }
   #searchInput {
     padding: .5em;
