@@ -46,6 +46,9 @@
     font-size: 1.5rem;
     color: var(--primary-color);
   }
+  .arrow{
+    width: 40px;
+  }
   .navigation .current{
     color: var(--accent-color);
   }
