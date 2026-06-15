@@ -1,0 +1,41 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        { "name": "Sydney, Australia", "imageUrl": "travelimg/sydney, australia.jpg", "description": "A vibrant city known for its iconic landmarks." },
+        { "name": "Melbourne, Australia", "imageUrl": "travelimg/melbourne.jpg", "description": "A cultural hub famous for its art and food." },
+        { "name": "Cairns, Australia", "imageUrl": "travelimg/cairns.jpg", "description": "The gateway to the Great Barrier Reef." }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        { "name": "Tokyo, Japan", "imageUrl": "travelimg/tokyo.jpg", "description": "A bustling metropolis blending tradition and modernity." },
+        { "name": "Kyoto, Japan", "imageUrl": "travelimg/kyoto, japan.jpg", "description": "Known for its historic temples and gardens." },
+        { "name": "Osaka, Japan", "imageUrl": "travelimg/osaka.jpg", "description": "Famous for its hearty street food and nightlife." }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        { "name": "Rio de Janeiro, Brazil", "imageUrl": "travelimg/rio de janeiro.jpg", "description": "A lively city known for its stunning beaches." },
+        { "name": "São Paulo, Brazil", "imageUrl": "travelimg/saopaulo.jpg", "description": "The financial hub with diverse culture." },
+        { "name": "Salvador, Brazil", "imageUrl": "travelimg/salvador.jpg", "description": "Known for its colorful colonial architecture." }
+      ]
+    }
+  ],
+  "temples": [
+    { "id": 1, "name": "Angkor Wat, Cambodia", "imageUrl": "travelimg/angkor wat, cambodia.jpg", "description": "The largest religious monument in the world." },
+    { "id": 2, "name": "Taj Mahal, India", "imageUrl": "travelimg/taj mahal, india.jpg", "description": "An iconic symbol of love." },
+    { "id": 3, "name": "Borobudur, Indonesia", "imageUrl": "travelimg/borobudur.jpg", "description": "The world's largest Buddhist temple." }
+  ],
+  "beaches": [
+    { "id": 1, "name": "Bora Bora, French Polynesia", "imageUrl": "travelimg/bora bora, french polynesia.jpg", "description": "Stunning turquoise waters." },
+    { "id": 2, "name": "Copacabana Beach, Brazil", "imageUrl": "travelimg/copacabana beach, brazil.jpg", "description": "A world-famous vibrant beach." },
+    { "id": 3, "name": "Whitehaven Beach, Australia", "imageUrl": "travelimg/whitehaven.jpg", "description": "Known for its pristine white silica sand." }
+  ]
+}

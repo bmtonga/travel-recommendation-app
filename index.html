@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..900;1,300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <title>Travel Recommendation</title>
+<body>
+
+    <main>
+        <nav class="navigation">
+            <a class="logo-link" href="travel_recommendation.html"><h1 class="logo"><img src="img/plane-arrival-solid.png" alt="" class="logo" width="50px"> M's Travel </h1></a>
+                 
+            <ul class="nav-links">
+                <li><a  class="current" href="travel_recommendation.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+       
+            <div class="search-container">
+                <form id="searchForm">
+                  <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search destinations..." 
+                    required
+                  >
+                  <div class="button-group">
+                    <button type="submit" id="searchBtn">Search</button>
+                    <button type="button" id="clearBtn">Clear</button>
+                  </div>
+                </form>
+              </div>
+        </nav>
+
+        <section class="container">
+           <div class="container-text">
+            <h1 class="container-heading">Visit Your Dream Destination</h1>
+            <p> 
+                Discover destinations tailored to the way you travel. 
+                From hidden local gems to unforgettable global adventures,
+                get personalized recommendations, curated experiences, and 
+                travel ideas
+                designed to turn every trip into something extraordinary.
+            </p>
+           </div>
+            <div class="cta">
+                <button type="button" class="btn book">Book Us Now</button>
+            <div class="links">
+                <a href="#"> <img src="img/facebook-brands-solid.png" alt=""> </a>
+                <a href="#"> <img src="img/linkedin-brands-solid.png" alt=""> </a>
+                <a href="#"> <img src="img/youtube-brands-solid.png" alt=""> </a>
+                <a href="#"> <img src="img/whatsapp-brands-solid.png" alt=""> </a>
+            </div>
+            </div>
+        </section>
+        <section id="resultsContainer" class="results-grid">
+        </section>
+    </main>
+
+
+<script src="travel_recommendation.js"></script>
+</body>
+</html>
